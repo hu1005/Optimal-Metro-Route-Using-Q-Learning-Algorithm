@@ -8,7 +8,6 @@ int max_index[11], available_acts[11];
 int ran_top = 0, ran[RAN_LIM];
 
 
-
 int returnRandom()   // returning random value as we know the more randomization we do,the more trained Q-matrix we will get
 {
     return ran[ran_top++];
